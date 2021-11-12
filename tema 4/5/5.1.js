@@ -29,11 +29,3 @@ function validarCorreo(txt) {
 function validarTarjetaCredito(txt) {
 	// body...
 }
-
-
-	
-
-
-document.write(validarMayuscula(texto)+"<br>")
-document.write(validarCaracteresEspeciales(texto)+"<br>")
-document.write(validarCorreo("dagonzalar@gmail.com"))
