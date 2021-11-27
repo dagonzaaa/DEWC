@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+#contenido{
+    text-align: center;
+}
+
+#formulario{
+    background-color: yellow;
+    width: 300px;
+    margin: auto;
+}
