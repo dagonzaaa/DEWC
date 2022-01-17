@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*MENU*/
+nav{
+	position: fixed;
+	width: 100%;
+}
+.menu {font-size: 20px;background-color: black;height: 50px; color: white;
+}
+
+.menu li {height: 50px;background-color: black;transition: 0.25s;padding-left: 10px;padding-right: 10px;vertical-align: middle;display: table-cell;color: #fff;list-style: none;cursor: pointer;
+}
+
+.menu li:hover {background: lightgrey;
+}
+
+.menu ul {display: none;position: absolute;top: 100px;background: white;color: white;margin: 0;box-shadow: 1px 1px 1px black;
+}
+
+.menu ul li {display: table-cell;vertical-align: middle;color: #fff;
+}
+
+.menu li:hover ul ul,{display: none;
+}
+
+.menu li:hover ul,
+.menu ul li:hover ul,
+.menu ul ul li:hover ul {display: table-cell;margin-left: 10px; margin-top:-5px;
+}
+body{
+	background-image: url('https://th.bing.com/th/id/R.c5a95f8a1def7e3a820cff055895a80c?rik=JeirBs1UFRF2%2fQ&riu=http%3a%2f%2fwww.gratistodo.com%2fwp-content%2fuploads%2f2016%2f11%2fHarry-Potter-y-las-reliquias-de-la-muerte-10.jpg&ehk=ncDB0miJ%2bCqOk%2bdtLttEjtKYhSPE%2bCyZlgFCvqgkUGg%3d&risl=&pid=ImgRaw&r=0');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+
+}
+aside {
+	width: 15%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  background-color: black;
+}
+
+h1{
+	color: white;
+	font-size: 30pt;
+	background: black;
+	cursor: pointer;
+}
+
+article{
+	margin: auto;
+	width: 100%;
+	align-items: center;
+}
+
+.main{
+	margin: auto;
+	width: 1168px;	
+	padding-top: 90px;
+	box-shadow: inset 100px 100px 500px grey;
+}
+
+.main div{
+	width: 10rem ;
+    height: 10rem;
+    display:  inline-block;
+    margin:  1rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    box-shadow: inset 10px 10px 50px rgba(0, 0, 0, 1);
+	text-align: center;
+	
+	
+}
+
+.main div p{
+	font-weight: bold;
+	color: grey;
+
+
+}
+
+.main .Gryffindor{
+	width: 10rem ;
+    height: 10rem;
+    display:  inline-block;
+    margin:  1rem;
+    padding-bottom: 2rem;
+    box-shadow: inset 10px 10px 50px rgb(196 0 1);
+	text-align: center;
+	color: white;	
+}
+.main .Slytherin{
+	width: 10rem ;
+    height: 10rem;
+    display:  inline-block;
+    margin:  1rem;
+    padding-bottom: 2rem;
+    box-shadow: inset 10px 10px 50px rgb(0 65 1);
+	text-align: center;
+	color: white;	
+}
+
+.main .Hufflepuff{
+	width: 10rem ;
+    height: 10rem;
+    display:  inline-block;
+    margin:  1rem;
+    padding-bottom: 2rem;
+    box-shadow: inset 10px 10px 50px rgb(255 243 0);
+	text-align: center;
+	color: white;	
+}
+
+.main .Ravenclaw{
+	width: 10rem ;
+    height: 10rem;
+    display:  inline-block;
+    margin:  1rem;
+    padding-bottom: 2rem;
+    box-shadow: inset 10px 10px 50px rgb(0 0 160);
+	text-align: center;
+	color: white;	
+}
+
+.cerrar{
+	color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.cerrar:hover{
+	color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.open{
+	color: blue;
+	text-decoration: underline;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	bottom: 1px;
+}
+
+.tarjeta{
+	display: none; 
+    position: fixed; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.tarjeta .dentro {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid lightgray;
+	width: 60%;
+}
